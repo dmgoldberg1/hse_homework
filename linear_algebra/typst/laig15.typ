@@ -1,5 +1,5 @@
-#import "exam_template.typ": *
-#import "typst-sympy-calculator.typ": *
+#import "../../exam_template.typ": *
+#import "../../typst-sympy-calculator.typ": *
 #let title = "ДЗ 15"
 #let author = "Гольдберг Дмитрий Максимович"
 #let course = "Линейная алгебра и геометрия"
