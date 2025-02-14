@@ -143,3 +143,22 @@ $
 #answer[
 $(x,y,z)=(1,2,1)$
 ]
+#pagebreak()
+
+#problem[
+  Пусть $n in NN, n>=2, e in ZZ, (e, phi(n))=1$. Докажите, что отображение
+$
+  "Enc"_e (accent(a, macron))=accent(a^e, macron)
+$
+взаимно однозначно отражает $ZZ_n^*$ на себя.
+]
+#solution[
+Докажем инъективность. Пусть $"Enc"_e (a)="Enc"_e (b) <==> a^e equiv b^e space (mod n)$. Так как $(e, phi(n))=1 => exists space d: e dot d equiv 1 space (mod phi(n))=>e dot d = t dot phi(n) +1$. Тогда $(a^e)^d equiv (b^e)^d space (mod n)=> a^(t dot phi(n)+1) equiv b^(t dot phi(n)+1) space (mod n)=> a equiv b space (mod n)$(по теореме Эйлера). Так как $a$ и $b$ $in ZZ_n^*$, то $a=b$. Доказали\
+
+Докажем сюръективность. Опять же, так как $(e, phi(n))=1 => exists space d: e dot d equiv 1 space (mod phi(n))=>e dot d = t dot phi(n) +1$. Для сюръективности надо доказать, что для любого $k in ZZ_n^* space  exists a^e: a^e equiv k space (mod n)$. Для любого $k$ можем взять $a= k^d space (mod n)(d- "обратный вычет по" phi(n))=>(k^d)^e equiv k space (mod n)=> k^(t dot phi(n)+1) equiv k space (mod n)=> k equiv k space (mod n)$(по теореме Эйлера). Доказали.\
+
+Значит отображение биективное.
+]
+#answer[
+ч.т.д
+]
