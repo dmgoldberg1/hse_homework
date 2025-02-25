@@ -45,10 +45,10 @@
 
 #let problem(no_header: false, name: none, body) = {
   if name != none {
-    name = " (" + name + ")"
+    name = name
   }
   if not no_header {
-    [= Задание #problem_counter.step() #problem_counter.display()#name]
+    [= Задание #problem_counter.step() #name]
   } else {
     none
   }

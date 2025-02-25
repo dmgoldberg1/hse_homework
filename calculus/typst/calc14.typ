@@ -7,7 +7,7 @@
 #show: title_page.with(title, author, course, group)
 #show: template
 
-#problem[
+#problem(name: "1")[
   Найдите значение дифференциала функции\
   а) $f(x,y)=root(3,4x^2+y^2)$ в точке (1, 2) на векторе (-0.2, 0.3);  б) $f(x,y)=x^3y-x y^3$ в точке (1, 2) на векторе (-0.5, 0.8)  
 ]
