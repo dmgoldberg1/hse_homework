@@ -31,7 +31,7 @@ $
   overline(g_1(bold(X)))=1/n sum_(i=1)^n ln(1 + x_i)\
   m_1 (theta) = overline(g_1(bold(X))) <==> 1/theta = 1/n sum_(i=1)^n ln(1 + x_i) <==> hat(theta) (bold(X))=n/(sum_(i=1)^n ln(1+x_i))\
   g_1(x)=x\
-  EE_theta  abs(X_1)=integral_0^infinity abs(x theta(1+x)^(-(1+theta))) d x=integral_0^infinity x theta(1+x)^(-(1+theta)) d x=1/(theta - 1)\
+  EE_theta  abs(X_1)=integral_0^infinity abs(x theta(1+x)^(-(1+theta))) d x=integral_0^infinity x theta(1+x)^(-(1+theta)) d x=1/(theta - 1), theta >1("иначе интеграл расходится")\
   m_1 (theta) = overline(g_1(bold(X))) <==> 1/(theta - 1)=1/n sum_(i=1)^n x_i <==> n = (theta - 1) sum_(i=1)^n x_i <==> hat(theta) (bold(X))=(n - sum_(i=1)^n x_i)/(sum_(i=1)^n x_i)= n/(sum_(i=1)^n x_i) - 1
 $
 ]
